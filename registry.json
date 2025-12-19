@@ -4945,5 +4945,32 @@
       "rpc": "https://rpc.monad.xyz",
       "documentation": "https://docs.monad.xyz"
     }
+    {
+  "id": "grx",
+  "name": "GRX Chain",
+  "coinId": 10001110,
+  "symbol": "GRX",
+  "decimals": 18,
+  "blockchain": "Ethereum",
+  "derivation": [
+    {
+      "name": "default",
+      "path": "m/44'/60'/0'/0/0",
+      "xpub": "xpub",
+      "xprv": "xprv"
+    }
+  ],
+  "curve": "secp256k1",
+  "publicKeyType": "secp256k1Extended",
+  "chainId": "1110",
+  "addressHasher": "keccak256",
+  "explorer": {
+    "url": "https://grxscan.io",
+    "txPath": "/tx/",
+    "accountPath": "/address/",
+    "sampleTx": "0x9efb3664811ca4fa99c0045325953f2c36387a728bbbaab73ff45bd34178190f",
+    "sampleAccount": "0x79b5a2d395db1711a6e6c42a95eb48710276f666"
+  }
+}
   }
 ]
